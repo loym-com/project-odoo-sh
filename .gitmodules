@@ -1,0 +1,4 @@
+[submodule "loym-com/tools-odoo-sh"]
+	path = loym-com/tools-odoo-sh/.tools-odoo-sh
+	url = git@github.com:loym-com/tools-odoo-sh.git
+	branch = main
