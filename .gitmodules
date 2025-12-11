@@ -14,3 +14,7 @@
 	path = OCA/web/.web
 	url = git@github.com:OCA/web.git
 	branch = 18.0
+[submodule "odoo/design-themes"]
+	path = odoo/design-themes/.design-themes
+	url = git@github.com:odoo/design-themes.git
+	branch = 18.0
