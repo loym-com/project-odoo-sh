@@ -11,8 +11,6 @@ git submodule update --init --remote loym-com/tools-odoo-sh/.tools-odoo-sh
 
 cd loym-com/tools-odoo-sh/.tools-odoo-sh
 
-git checkout
-
 cp settings_template.py settings.py
 
 ---
