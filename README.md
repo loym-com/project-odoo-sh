@@ -17,7 +17,7 @@ cp settings_template.py settings.py
 
 bash task help
 
-bash task add_submodule OCA web 18.0
+bash task add_submodule OCA server-tools 18.0
 
 bash task update
 

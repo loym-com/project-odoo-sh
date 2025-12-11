@@ -2,15 +2,19 @@
 	path = loym-com/tools-odoo-sh/.tools-odoo-sh
 	url = git@github.com:loym-com/tools-odoo-sh.git
 	branch = main
-[submodule "odoo/industry"]
-	path = odoo/industry/.industry
-	url = git@github.com:odoo/industry.git
+[submodule "odoo/odoo"]
+	path = odoo/odoo/.odoo
+	url = git@github.com:odoo/odoo.git
 	branch = 18.0
 [submodule "odoo/design-themes"]
 	path = odoo/design-themes/.design-themes
 	url = git@github.com:odoo/design-themes.git
 	branch = 18.0
-[submodule "odoo/odoo"]
-	path = odoo/odoo/.odoo
-	url = git@github.com:odoo/odoo.git
+[submodule "odoo/industry"]
+	path = odoo/industry/.industry
+	url = git@github.com:odoo/industry.git
+	branch = 18.0
+[submodule "OCA/web"]
+	path = OCA/web/.web
+	url = git@github.com:OCA/web.git
 	branch = 18.0
