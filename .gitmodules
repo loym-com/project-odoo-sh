@@ -2,7 +2,3 @@
 	path = loym-com/tools-odoo-sh/.tools-odoo-sh
 	url = git@github.com:loym-com/tools-odoo-sh.git
 	branch = main
-[submodule "odoo/design-themes"]
-	path = odoo/design-themes/.design-themes
-	url = git@github.com:odoo/design-themes.git
-	branch = 18.0
