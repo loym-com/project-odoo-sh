@@ -10,7 +10,3 @@
 	path = odoo/industry/.industry
 	url = git@github.com:odoo/industry.git
 	branch = 18.0
-[submodule "OCA/web"]
-	path = OCA/web/.web
-	url = git@github.com:OCA/web.git
-	branch = 18.0
