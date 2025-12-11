@@ -14,3 +14,7 @@
 	path = odoo/industry/.industry
 	url = git@github.com:odoo/industry.git
 	branch = 18.0
+[submodule "odoo/odoo"]
+	path = odoo/odoo/.odoo
+	url = git@github.com:odoo/odoo.git
+	branch = 18.0
