@@ -2,3 +2,7 @@
 	path = loym-com/tools-odoo-sh/.tools-odoo-sh
 	url = git@github.com:loym-com/tools-odoo-sh.git
 	branch = main
+[submodule "odoo/odoo"]
+	path = odoo/odoo/.odoo
+	url = git@github.com:odoo/odoo.git
+	branch = 18.0
