@@ -3,15 +3,25 @@
 Tested on Ubuntu
 
 ```
-git clone git@github.com:loym-com/tools-odoo-sh project_18
+git clone git@github.com:loym-com/project-odoo-sh project_18
 
-cd project_18/loym-com/tools-odoo-sh/.tools-odoo-sh
+cd project_18
+
+git submodule update --init --remote loym-com/tools-odoo-sh/.tools-odoo-sh
+
+cd loym-com/tools-odoo-sh/.tools-odoo-sh
+
+git checkout
+
+cp settings_template.py settings.py
 
 ---
 
 bash task help
 
 bash task add_submodule OCA web 18.0
+
+bash task update
 
 ---
 
@@ -25,5 +35,7 @@ nano ../../../odoo.conf
 
 source ../../../.venv/bin/activate
 
-python3 ../../../odoo/odoo/odoo-bin -c ../../../odoo.conf
+python3 ../../../odoo/odoo/.odoo/odoo-bin -c ../../../odoo.conf
+
+# Open browser, go to localhost:8069, login with username 'admin' password 'admin'
 ```
