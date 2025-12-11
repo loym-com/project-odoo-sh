@@ -6,3 +6,7 @@
 	path = odoo/odoo/.odoo
 	url = git@github.com:odoo/odoo.git
 	branch = 18.0
+[submodule "odoo/design-themes"]
+	path = odoo/design-themes/.design-themes
+	url = git@github.com:odoo/design-themes.git
+	branch = 18.0
