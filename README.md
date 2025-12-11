@@ -3,13 +3,9 @@
 Tested on Ubuntu
 
 ```
-git clone git@github.com:loym-com/project-odoo-sh project_18
+git clone --recurse-submodules --shallow-submodules --depth=1 git@github.com:loym-com/project-odoo-sh project_18
 
-cd project_18
-
-git submodule update --init --remote loym-com/tools-odoo-sh/.tools-odoo-sh
-
-cd loym-com/tools-odoo-sh/.tools-odoo-sh
+cd project_18/loym-com/tools-odoo-sh/.tools-odoo-sh
 
 cp settings_template.py settings.py
 
